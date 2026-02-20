@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class MinMaxString {
 
-    // find smallest character
     static char minChar(String s) {
         char min = s.charAt(0);
 
@@ -13,7 +12,6 @@ public class MinMaxString {
         return min;
     }
 
-    // find greatest character
     static char maxChar(String s) {
         char max = s.charAt(0);
 
